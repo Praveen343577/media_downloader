@@ -1,0 +1,32 @@
+{
+  "delays": {
+    "Instagram": {
+      "micro_min": 3.5,
+      "micro_max": 7.5,
+      "macro_min": 300.0,
+      "macro_max": 480.0,
+      "macro_interval": 30
+    },
+    "Twitter": {
+      "micro_min": 2.5,
+      "micro_max": 5.5,
+      "macro_min": 180.0,
+      "macro_max": 300.0,
+      "macro_interval": 50
+    },
+    "Pinterest": {
+      "micro_min": 2.5,
+      "micro_max": 5.5,
+      "macro_min": 180.0,
+      "macro_max": 300.0,
+      "macro_interval": 50
+    },
+    "Youtube": {
+      "micro_min": 1.5,
+      "micro_max": 3.5,
+      "macro_min": 120.0,
+      "macro_max": 240.0,
+      "macro_interval": 100
+    }
+  }
+}

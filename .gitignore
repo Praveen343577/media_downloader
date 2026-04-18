@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Project-specific ignored paths
+downloads/
+TARGET_DOWNLOAD_DIR/
+
+# Security: Never commit authentication cookies
+config/cookies.txt
+
+# User-specific input lists (ignore content to prevent accidental link commits)
+input_links/Youtube.txt
+input_links/Instagram.txt
+input_links/Twitter.txt
+input_links/Pinterest.txt
+
+# OS / IDE
+.vscode/
+.idea/
+.DS_Store
+*.swp

@@ -1,0 +1,2 @@
+class RateLimitAbortException(Exception):
+    pass
