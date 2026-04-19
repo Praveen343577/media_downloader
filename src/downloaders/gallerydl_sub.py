@@ -19,7 +19,7 @@ class GalleryDLSub:
             "--cookies", self.cookie_path,
             "-d", base_path,
             "--write-metadata",
-            "--directory-depth", "0"
+            "-o", "directory=[]"
         ]
 
         if platform == "Twitter":

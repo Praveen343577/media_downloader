@@ -1,4 +1,5 @@
 import sys
+import shutil
 
 class Tracker:
     def __init__(self) -> None:
@@ -54,5 +55,6 @@ class Tracker:
             f"{self.state['retry']} "
             f"CD: {self.state['cooldown']}"
         )
-        sys.stdout.write(output[:sys.getterminalsize().columns - 1].ljust(sys.getterminalsize().columns - 1))
+        term_width = shutil.get_terminal_size().columns
+        sys.stdout.write(output[:term_width - 1].ljust(term_width - 1))
         sys.stdout.flush()
